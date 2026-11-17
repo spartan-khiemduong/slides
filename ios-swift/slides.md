@@ -10,6 +10,8 @@ drawings:
 transition: slide-left
 mdc: true
 lineNumbers: false
+# hash routes: deep links work on GitHub Pages without a 404 fallback
+routerMode: hash
 ---
 
 # iOS Swift

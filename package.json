@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "ios-swift": "slidev ios-swift/slides.md --open",
-    "ios-swift:build": "slidev build ios-swift/slides.md --out ../dist/ios-swift",
+    "ios-swift:build": "slidev build ios-swift/slides.md --out ../dist/ios-swift --base ${BASE:-/}",
     "ios-swift:pdf": "slidev export ios-swift/slides.md --output dist/ios-swift.pdf"
   },
   "devDependencies": {
