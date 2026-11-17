@@ -1,0 +1,14 @@
+{
+  "name": "slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ios-swift": "slidev ios-swift/slides.md --open",
+    "ios-swift:build": "slidev build ios-swift/slides.md --out ../dist/ios-swift",
+    "ios-swift:pdf": "slidev export ios-swift/slides.md --output dist/ios-swift.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "53.1.0",
+    "@slidev/theme-seriph": "0.25.0"
+  }
+}
